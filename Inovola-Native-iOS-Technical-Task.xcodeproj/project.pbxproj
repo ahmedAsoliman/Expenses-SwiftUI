@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		78213D922E43E1920031C262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78213D772E43E1910031C262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78213D7E2E43E1910031C262;
+			remoteInfo = "Inovola-Native-iOS-Technical-Task";
+		};
+		78213D9C2E43E1920031C262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78213D772E43E1910031C262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78213D7E2E43E1910031C262;
+			remoteInfo = "Inovola-Native-iOS-Technical-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78213D7F2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inovola-Native-iOS-Technical-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78213D912E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inovola-Native-iOS-Technical-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78213D9B2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inovola-Native-iOS-Technical-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		785671AF2E56A2D000AF6740 /* Exceptions for "Inovola-Native-iOS-Technical-Task" folder in "Inovola-Native-iOS-Technical-TaskTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"DataLayer/CoreData/Category+CoreDataClass.swift",
+				"DataLayer/CoreData/Category+CoreDataProperties.swift",
+				DataLayer/CoreData/CoreDataManager.swift,
+				"DataLayer/CoreData/Expense+CoreDataClass.swift",
+				"DataLayer/CoreData/Expense+CoreDataProperties.swift",
+				DataLayer/CoreData/Inovola_Native_iOS_Technical_Task.xcdatamodeld,
+				DataLayer/DashboardRepositoryImpl.swift,
+				DataLayer/ExpenseRepositoryImpl.swift,
+				Domain/Entities/ExchangRateRequest.swift,
+				Domain/Repositories/DashboardRepository.swift,
+				Domain/Repositories/ExpenseRepository.swift,
+				Domain/UseCases/AddExpenseUseCase.swift,
+				Domain/UseCases/DashboardUseCase.swift,
+				Domain/UseCases/GetCategoryUseCase.swift,
+				Presentation/AddExpenseView/AddExpenseView.swift,
+				Presentation/AddExpenseView/AddExpenseViewModel.swift,
+				Presentation/AllExpensesView/AllExpensesView.swift,
+				Presentation/Components/BalanceCardView.swift,
+				Presentation/Components/ExpenseItemRow.swift,
+				Presentation/Components/HeaderView.swift,
+				Presentation/Components/ImagePickerView.swift,
+				Presentation/Components/MainTabView.swift,
+				Presentation/Components/RecentExpensesView.swift,
+				Presentation/Components/Toast/ToastMessage.swift,
+				Presentation/Components/Toast/ToastModifier.swift,
+				Presentation/Components/Toast/ToastType.swift,
+				Presentation/DashboardView/DashboardView.swift,
+				Presentation/DashboardView/DashboardViewModel.swift,
+				"Presentation/DashboardView/DashboardViewModel+Filtering.swift",
+				"Presentation/DashboardView/DashboardViewModel+Observers.swift",
+				"Presentation/DashboardView/DashboardViewModel+Pagination.swift",
+				"Presentation/DashboardView/DashboardViewModel+Totals.swift",
+				Presentation/ExpensesListCoreView/ExpensesListCore.swift,
+				Resources/Assets.xcassets,
+				Services/APILayer/APIError.swift,
+				Services/APILayer/APIManger.swift,
+				Services/APILayer/APIRequest.swift,
+				Services/APILayer/HTTPMethod.swift,
+				Services/CurrencyConverterService.swift,
+				Services/Persistence/Seeders/CategorySeeder.swift,
+				Utils/Constants.swift,
+				Utils/Extensions.swift,
+			);
+			target = 78213D902E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests */;
+		};
+		785671B02E56A2D000AF6740 /* Exceptions for "Inovola-Native-iOS-Technical-Task" folder in "Inovola-Native-iOS-Technical-TaskUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"DataLayer/CoreData/Category+CoreDataClass.swift",
+				"DataLayer/CoreData/Category+CoreDataProperties.swift",
+				DataLayer/CoreData/CoreDataManager.swift,
+				"DataLayer/CoreData/Expense+CoreDataClass.swift",
+				"DataLayer/CoreData/Expense+CoreDataProperties.swift",
+				DataLayer/CoreData/Inovola_Native_iOS_Technical_Task.xcdatamodeld,
+				DataLayer/DashboardRepositoryImpl.swift,
+				DataLayer/ExpenseRepositoryImpl.swift,
+				Domain/Entities/ExchangRateRequest.swift,
+				Domain/Repositories/DashboardRepository.swift,
+				Domain/Repositories/ExpenseRepository.swift,
+				Domain/UseCases/AddExpenseUseCase.swift,
+				Domain/UseCases/DashboardUseCase.swift,
+				Domain/UseCases/GetCategoryUseCase.swift,
+				Presentation/AddExpenseView/AddExpenseView.swift,
+				Presentation/AddExpenseView/AddExpenseViewModel.swift,
+				Presentation/AllExpensesView/AllExpensesView.swift,
+				Presentation/Components/BalanceCardView.swift,
+				Presentation/Components/ExpenseItemRow.swift,
+				Presentation/Components/HeaderView.swift,
+				Presentation/Components/ImagePickerView.swift,
+				Presentation/Components/MainTabView.swift,
+				Presentation/Components/RecentExpensesView.swift,
+				Presentation/Components/Toast/ToastMessage.swift,
+				Presentation/Components/Toast/ToastModifier.swift,
+				Presentation/Components/Toast/ToastType.swift,
+				Presentation/DashboardView/DashboardView.swift,
+				Presentation/DashboardView/DashboardViewModel.swift,
+				"Presentation/DashboardView/DashboardViewModel+Filtering.swift",
+				"Presentation/DashboardView/DashboardViewModel+Observers.swift",
+				"Presentation/DashboardView/DashboardViewModel+Pagination.swift",
+				"Presentation/DashboardView/DashboardViewModel+Totals.swift",
+				Presentation/ExpensesListCoreView/ExpensesListCore.swift,
+				Resources/Assets.xcassets,
+				Services/APILayer/APIError.swift,
+				Services/APILayer/APIManger.swift,
+				Services/APILayer/APIRequest.swift,
+				Services/APILayer/HTTPMethod.swift,
+				Services/CurrencyConverterService.swift,
+				Services/Persistence/Seeders/CategorySeeder.swift,
+				Utils/Constants.swift,
+				Utils/Extensions.swift,
+			);
+			target = 78213D9A2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		78213D812E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				785671AF2E56A2D000AF6740 /* Exceptions for "Inovola-Native-iOS-Technical-Task" folder in "Inovola-Native-iOS-Technical-TaskTests" target */,
+				785671B02E56A2D000AF6740 /* Exceptions for "Inovola-Native-iOS-Technical-Task" folder in "Inovola-Native-iOS-Technical-TaskUITests" target */,
+			);
+			path = "Inovola-Native-iOS-Technical-Task";
+			sourceTree = "<group>";
+		};
+		78213D942E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Inovola-Native-iOS-Technical-TaskTests";
+			sourceTree = "<group>";
+		};
+		78213D9E2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Inovola-Native-iOS-Technical-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78213D7C2E43E1910031C262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78213D8E2E43E1920031C262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78213D982E43E1920031C262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78213D762E43E1910031C262 = {
+			isa = PBXGroup;
+			children = (
+				78213D812E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */,
+				78213D942E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests */,
+				78213D9E2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests */,
+				78213D802E43E1910031C262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78213D802E43E1910031C262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78213D7F2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task.app */,
+				78213D912E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests.xctest */,
+				78213D9B2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78213D7E2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78213DA52E43E1920031C262 /* Build configuration list for PBXNativeTarget "Inovola-Native-iOS-Technical-Task" */;
+			buildPhases = (
+				78213D7B2E43E1910031C262 /* Sources */,
+				78213D7C2E43E1910031C262 /* Frameworks */,
+				78213D7D2E43E1910031C262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78213D812E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */,
+			);
+			name = "Inovola-Native-iOS-Technical-Task";
+			packageProductDependencies = (
+			);
+			productName = "Inovola-Native-iOS-Technical-Task";
+			productReference = 78213D7F2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78213D902E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78213DA82E43E1920031C262 /* Build configuration list for PBXNativeTarget "Inovola-Native-iOS-Technical-TaskTests" */;
+			buildPhases = (
+				78213D8D2E43E1920031C262 /* Sources */,
+				78213D8E2E43E1920031C262 /* Frameworks */,
+				78213D8F2E43E1920031C262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78213D932E43E1920031C262 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78213D942E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests */,
+			);
+			name = "Inovola-Native-iOS-Technical-TaskTests";
+			packageProductDependencies = (
+			);
+			productName = "Inovola-Native-iOS-Technical-TaskTests";
+			productReference = 78213D912E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78213D9A2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78213DAB2E43E1920031C262 /* Build configuration list for PBXNativeTarget "Inovola-Native-iOS-Technical-TaskUITests" */;
+			buildPhases = (
+				78213D972E43E1920031C262 /* Sources */,
+				78213D982E43E1920031C262 /* Frameworks */,
+				78213D992E43E1920031C262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78213D9D2E43E1920031C262 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78213D9E2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests */,
+			);
+			name = "Inovola-Native-iOS-Technical-TaskUITests";
+			packageProductDependencies = (
+			);
+			productName = "Inovola-Native-iOS-Technical-TaskUITests";
+			productReference = 78213D9B2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78213D772E43E1910031C262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					78213D7E2E43E1910031C262 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					78213D902E43E1920031C262 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 78213D7E2E43E1910031C262;
+					};
+					78213D9A2E43E1920031C262 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 78213D7E2E43E1910031C262;
+					};
+				};
+			};
+			buildConfigurationList = 78213D7A2E43E1910031C262 /* Build configuration list for PBXProject "Inovola-Native-iOS-Technical-Task" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78213D762E43E1910031C262;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78213D802E43E1910031C262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78213D7E2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */,
+				78213D902E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskTests */,
+				78213D9A2E43E1920031C262 /* Inovola-Native-iOS-Technical-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78213D7D2E43E1910031C262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78213D8F2E43E1920031C262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78213D992E43E1920031C262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78213D7B2E43E1910031C262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78213D8D2E43E1920031C262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78213D972E43E1920031C262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78213D932E43E1920031C262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78213D7E2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */;
+			targetProxy = 78213D922E43E1920031C262 /* PBXContainerItemProxy */;
+		};
+		78213D9D2E43E1920031C262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78213D7E2E43E1910031C262 /* Inovola-Native-iOS-Technical-Task */;
+			targetProxy = 78213D9C2E43E1920031C262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78213DA32E43E1920031C262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78213DA42E43E1920031C262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78213DA62E43E1920031C262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Inovola-Native-iOS-Technical-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78213DA72E43E1920031C262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Inovola-Native-iOS-Technical-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78213DA92E43E1920031C262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Inovola-Native-iOS-Technical-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inovola-Native-iOS-Technical-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inovola-Native-iOS-Technical-Task";
+			};
+			name = Debug;
+		};
+		78213DAA2E43E1920031C262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Inovola-Native-iOS-Technical-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inovola-Native-iOS-Technical-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inovola-Native-iOS-Technical-Task";
+			};
+			name = Release;
+		};
+		78213DAC2E43E1920031C262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Inovola-Native-iOS-Technical-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inovola-Native-iOS-Technical-Task";
+			};
+			name = Debug;
+		};
+		78213DAD2E43E1920031C262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QHLHM2VU4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Inovola-Native-iOS-Technical-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inovola-Native-iOS-Technical-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78213D7A2E43E1910031C262 /* Build configuration list for PBXProject "Inovola-Native-iOS-Technical-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78213DA32E43E1920031C262 /* Debug */,
+				78213DA42E43E1920031C262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78213DA52E43E1920031C262 /* Build configuration list for PBXNativeTarget "Inovola-Native-iOS-Technical-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78213DA62E43E1920031C262 /* Debug */,
+				78213DA72E43E1920031C262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78213DA82E43E1920031C262 /* Build configuration list for PBXNativeTarget "Inovola-Native-iOS-Technical-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78213DA92E43E1920031C262 /* Debug */,
+				78213DAA2E43E1920031C262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78213DAB2E43E1920031C262 /* Build configuration list for PBXNativeTarget "Inovola-Native-iOS-Technical-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78213DAC2E43E1920031C262 /* Debug */,
+				78213DAD2E43E1920031C262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78213D772E43E1910031C262 /* Project object */;
+}
